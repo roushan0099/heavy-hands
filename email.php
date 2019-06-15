@@ -6,11 +6,11 @@ if (filter_var($_REQUEST['contact_email'], FILTER_VALIDATE_EMAIL)):
   $subject = 'Email from kite Demo Page'; // Subject of your email
 
   // Receiver email address
-  $to = 'mail@yourdomain.com';  //Change the email address by yours
+  $to = 'mail@roushansingh0099pc@gmail.com.com';  //Change the email address by yours
  
 
   // prepare header
-  $header = 'From: '. $_REQUEST['first_name'] . " " .$_REQUEST['last_name'] . ' <'. $_REQUEST['contact_email'] .'>'. "\r\n";
+  $header = 'From:hhe '. $_REQUEST['first_name'] . " " .$_REQUEST['last_name'] . ' <'. $_REQUEST['contact_email'] .'>'. "\r\n";
   $header .= 'Reply-To:  '. $_REQUEST['first_name'] . " " .$_REQUEST['last_name'] . ' <'. $_REQUEST['contact_email'] .'>'. "\r\n";
   // $header .= 'Cc:  ' . 'example@domain.com' . "\r\n";
   // $header .= 'Bcc:  ' . 'example@domain.com' . "\r\n";
